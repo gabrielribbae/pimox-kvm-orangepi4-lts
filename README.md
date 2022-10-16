@@ -14,7 +14,7 @@ kvm: kvm_init_vcpu: kvm_arch_init_vcpu failed (0): Invalid argument
 TASK ERROR: start failed: QEMU exited with code 1
 ```
 
-So the journey to enable KVM for big.LITTLE arch in Pimox (BTW, pi 4 is not big.LITTLE, so that's why it does not have this problem) begin here.
+So the journey to enable KVM for big.LITTLE arch in Pimox begin here. BTW, pi 4 is not big.LITTLE, so that's why it does not have this problem.
 
 Info gathered so far:
 
