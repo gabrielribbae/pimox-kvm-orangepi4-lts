@@ -1,5 +1,5 @@
 # pimox-kvm-orangepi4-lts
-This is a little repo to store forked script from [here](https://gist.github.com/MakiseKurisu/c11f534568ffbc5d604797d67215daba), which supposes to build debian-based debootstrap from a debian (in my case, armbian host).
+This is a little repo to store forked script from [here](https://gist.github.com/MakiseKurisu/c11f534568ffbc5d604797d67215daba), which supposes to build debian-based debootstrap (in my case, on armbian host).
 
 Don't know for sure if KVM for big.LITTLE ARM requires having UEFI-compliant bootloader. In this case i assume that it has to be related with loading U-boot via SPI.
 
