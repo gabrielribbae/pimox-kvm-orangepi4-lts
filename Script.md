@@ -105,7 +105,7 @@ wpa-psk f62567f62499c41da515d88e7e877109e60a0cc320166d846450bc169e8b52d9
 EOF
 
 echo pve > ${MOUNT_POINT}/etc/hostname
-echo ${IP_ADDRESS} pve pve.my-fqdn.com >> ${MOUNT_POINT}/etc/hosts
+echo ${IP_ADDRESS} pve pve.localdomaim >> ${MOUNT_POINT}/etc/hosts
 ```
 
 4. Enabling chroot to enter filesystem created in step 2. From here, prepare timezone, language stuffs, and to install armbian and proxmox related packages via apt.
