@@ -1,4 +1,5 @@
 # Steps required to enable debian based image with qemu and uefi.
+Note: Steps still need to be verified (still not validated that works for my case).
 
 The script does the following:
 
