@@ -9,11 +9,11 @@ The script does the following:
 # Debian on WSL does not work
 
 # Define variables
-TARGET=/dev/sda
-MOUNT_POINT=/mnt
-IP_ADDRESS=192.168.100.145
-GATEWAY=192.168.100.1
-SSID=Quartz
+TARGET=/dev/sda # Here goes your target device where load the image.
+MOUNT_POINT=/mnt # Here goes mount point
+IP_ADDRESS=192.168.100.145 # Here goes your device IP
+GATEWAY=192.168.100.1 # Here goes your gateway IP
+SSID=Your_SSID # Here goes your SSID considering that wifi is a choice
 ```
 
 2. Prepares environment for debootstrap and qemu. This include packages, and preparing device with required partition formatting.
