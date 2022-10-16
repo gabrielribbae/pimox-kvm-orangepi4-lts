@@ -16,6 +16,8 @@ TASK ERROR: start failed: QEMU exited with code 1
 
 So the journey to enable KVM for big.LITTLE arch in Pimox begin here. BTW, pi 4 is not big.LITTLE, so that's why it does not have this problem.
 
+A script chopped in pieces (for better self understanding but still need more work to done) is shown in [Script.md](https://github.com/gabrielribbae/pimox-kvm-orangepi4-lts/blob/main/Script.md)
+
 Info gathered so far:
 
 - https://github.com/pimox/qemu-server/pull/1
