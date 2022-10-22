@@ -16,7 +16,7 @@ So the journey to enable KVM for big.LITTLE arch in Pimox begin here. BTW, pi 4 
 
 Don't know for sure if KVM for big.LITTLE ARM requires having UEFI-compliant bootloader. ~~In this case i assume that it has to be related with loading U-boot via SPI.~~ Thinking maybe it's related that KVM can't select cpu cores from different clusters (RK3399 is non SMP as having two clusters with different cores).
 
-A script chopped in pieces (for better self understanding but still need more work to done) is shown in [Script.md](https://github.com/gabrielribbae/pimox-kvm-orangepi4-lts/blob/main/Script.md), and servers as documentation while understanding the enabling process of KVM VMs. Don't take it as running that steps you will be able to fix this. Actually, i ran these steps and failed miserably because i think it is not supposed to run as script per se (i had some things related to chroot and env variables, also with repos not finding some packages).
+A script chopped in pieces (for better self understanding but still need more work to done) is shown in [Script.md](https://github.com/gabrielribbae/pimox-kvm-orangepi4-lts/blob/main/Script.md), and serves as self-documentation while understanding the enabling process of KVM VMs. Don't take it as running that steps you will be able to fix this. Actually, i ran these steps and failed miserably because i think it is not supposed to run as script per se (i had some things related to chroot and env variables, also with repos not finding some packages).
 
 Info gathered so far:
 
